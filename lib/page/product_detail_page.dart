@@ -44,7 +44,7 @@ class _ProductDetailPageState extends State<ProductDetailPage> {
   @override
   Widget build(BuildContext context) {
     final List<dynamic> rawSizes =
-        widget.product['sizes'] as List<dynamic>? ?? [38, 39, 40, 41, 42];
+        widget.product['sizes'] as List<dynamic>? ?? [1, 2, 3, 45];
     final List<int> sizes = rawSizes.map((e) => (e as num).toInt()).toList();
 
     return Scaffold(
